@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient( to right, skyblue,lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 330px;
+    margin-right: 330px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding: 1px;
+}
+h3{
+    color: blueviolet;
+    font-weight: bold;
+    padding: 0cap;
+    border-top: solid black 1px;
+}
+h1{
+     color: yellow;
+    font-weight: bolder;
+}
+p{
+    padding: 0.5px;
+}
+.hop{
+    border-bottom: solid;
+}
+
+br{
+    padding: 1px;
+}
