@@ -1,0 +1,62 @@
+header{
+    width: 100%;
+    height: 150px;
+    align-items: center;
+}
+div{
+    float: left;
+}   
+.nhietdo{
+    margin: 0;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.left{
+    
+    float: left;
+    align-items: left;
+    justify-content: left;  
+
+}
+.right{
+    float: right;
+    margin: 0;
+    padding: 0;
+    align-items: right;
+    justify-content: right;  
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    align-items: left;
+    justify-content: left;
+    padding-top: 24px;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+h1{
+    font-size: 130px;
+    margin: 0;
+    align-items: left;
+    justify-content: left;
+    padding-top: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+h2{
+    font-size: 40px;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;   
+}
+.ul_right{
+    padding-right: 10px;
+    align-items: right;
+    justify-content: right;  
+    text-align: right;
+}

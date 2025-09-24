@@ -1,0 +1,61 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{ /* set san mau cho hover*/
+    color:#ad7408;
+}
+
+body{
+    background-color: #fafafa;
+    color: #444444;
+    font-size: 14px;
+    font-weight: 400;
+    font-family:  "Roboto", sans-serif;
+    text-align: left;
+}
+
+p{
+    margin-bottom: 0.75rem; /*dan dong,rem nhan voi font-size>>>0.75*14px>>>>lay phan tram*/
+}
+/*layout*/
+/*style cho section*/
+.section{
+    /*ky thuat cat ngang man hinh*/
+    float: left;
+    width: 100%
+}
+.container{
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+/*chinh cac phan*/
+.nav{
+    background-color: #008000ce;
+}
+
+.nav ul li{
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav li a{
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav ul li.right{
+    float: right;
+}

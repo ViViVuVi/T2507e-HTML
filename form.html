@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+        <section class="section form-demo">
+            <div class="container">
+                <form action="#" method="get">
+                    <div class="form-group">
+                        <label>Full name</label>
+                        <input  type="text" name="full_name" placeholder="enter your name" required/>
+                    </div>  
+                     <div class="form-group">
+                        <label>Email</label>
+                        <input  type="email" name="my_email" placeholder="enter your email"/>
+                    </div> 
+                     <div class="form-group">
+                        <label>password</label>
+                        <input  type="password" name="my_password" placeholder="enter your password"/>
+                    </div> 
+                     <div class="form-group">
+                        <label>Date of birth</label>
+                        <input  type="date" name="DOB" placeholder="enter your birthday"/>
+                    </div> 
+                     <div class="form-group">
+                        <label>Time</label>
+                        <input  type="time" name="my_time" placeholder="enter your time"/>
+                    </div> 
+                     <div class="form-group">
+                        <label>Favourite color</label>
+                        <input  type="color" name="my_color" placeholder="enter your color"/>
+                    </div> 
+                     <div class="form-group">
+                        <label>Telephone</label>
+                        <input  type="tel" name="my_telephone" placeholder="enter your phone"/>
+                    </div> 
+                     <div class="form-group">
+                        <label>Age</label>
+                        <input  type="number" name="my_age" placeholder="enter your age"/>
+                    </div> 
+                     <div class="form-group">
+                        <label>Gioi tinh</label>
+                        <label><input  type="radio" name="sex" value="male"/> male</label>
+                        <label><input  type="radio" name="sex" value="female"/> female</label>
+                    </div> 
+                    <div class="form-group">
+                        <label><input  type="checkbox" name="dieu_kien"/> Toi xin hua nhung dieu tren la su that.</label>
+                    </div> 
+                    <div class="form-group">
+                        <label>Country</label>
+                        <select name="country">
+                            <option value="vietnam">Viet Nam</option>
+                             <option value="usa">My</option>
+                        </select>
+                    </div> 
+                    <div class="form-group">
+                        <label>Profile</label>
+                        <textarea name="profile" placeholder="Profile..."></textarea>
+                    </div> 
+                    <div class="form-group">
+                        <button onclick="return confirm('Submit data?')" type="submit">Send data</button>
+                        <button onclick="return confirm('are you sure?')" type="reset">Reset data</button>
+                        <button type="button">Button</button>
+                    </div> 
+                </form>
+            </div>
+        </section>
+    
+</body>
+</html>

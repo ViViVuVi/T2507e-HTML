@@ -1,0 +1,19 @@
+{
+    "name": "Iphone 17 air",
+    "price": 32000000,
+    "image": "images/iphone_17.jpg",
+    "description": "dong san pham duoc yeu thich nhat hien nay",
+    "stock": {
+        "qty": 9
+    },
+    "reviews": [ 
+        {
+        "rate": 5,
+        "review": "nhin long lanh lap loe"
+        },
+        {
+        "rate": 4,
+        "review": "dep, sang, xinh"
+        }
+    ]
+}
