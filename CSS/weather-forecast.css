@@ -25,10 +25,10 @@ body{
     height: fit-content;
     display: flex;
     margin: 10px 5px;
-    line-height-step: 0;
     background-color: rgb(63, 174, 221);
 }
 .item-comment{
+    line-height: 0.5;
     width: 70%;
     margin: 0;
     padding: 0;
